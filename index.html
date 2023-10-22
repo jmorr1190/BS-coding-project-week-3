@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--inserted the bootstrap code to make this all work-->
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,6 +10,7 @@
 </head>
 <body>
 
+  <!-- Here is my navigtion bar. I would have liked to found out how to move the click for more words to the right of the page. This is a prebuilt code from the internet. -->
 <nav class="navbar navbar-dark bg-success">
   <div class="container-fluid">
     <a class="navbar-brand" href="javascript:void(0)">Click for all recipes</a>
@@ -33,12 +35,36 @@
       </form>
     </div>
   </div>
+</div>
 </nav>
 
 <div class="container-fluid mt-3">
-  <h3>Navbar Forms</h3>
-  <p>You can also include forms inside the navigation bar.</p>
+  <h3>Welcome to my recipe website!</h3>
+  <p>Here you will find recipes I have found over the years that we always have on the cooking list!</p>
 </div>
+
+<!--this is a picture of a recent beef stew I made. I wish I could have figured out how to make this center along with the contact form.-->
+<img src="img_6107_2.jpg" alt="beef stew" class="center" height="300px">
+<div class="mb-3 mt-3"></div>
+
+<!--This is my sign up form. I would someday love to colaborate on quick and easy recipes for other working parents. I also modified this pre built code to make it a contact form instead of a login in form.-->
+<div class="container mt-3">
+  <h2>Are you intrested in helping create an amazing recipe list for others to use? Sign up below and I will be in contact!</h2>
+  <form action="/action_page.php">
+    <div class="mb-3 mt-3">
+      <label for="Name">Name:</label>
+      <input type="email" class="form-control" id="name" placeholder="Enter name" name="name">
+    </div>
+    <div class="mb-3">
+      <label for="email">email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
 
 </body>
 </html>
